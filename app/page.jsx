@@ -13,7 +13,7 @@ export default function Home() {
       <Text />
       <div className={styles.socialmedia}>
         <SocialMedia
-          link="https://discord.gg/2Zd95kAYxn"
+          link="https://discord.gg/ssDQaVzD76"
           image="/img/Discord.svg"
           text="caroldg"
           target="_blank"
