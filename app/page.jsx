@@ -13,18 +13,21 @@ export default function Home() {
       <Text />
       <div className={styles.socialmedia}>
         <SocialMedia
-          link="https://discord.gg/2Zd95kAYxn"
+          textname="DiSCORD"
+          link="https://discord.gg/7TjQPJhVvz"
           image="/img/Discord.svg"
           text="caroldg"
           target="_blank"
         />
         <SocialMedia
+          textname="INSTAGRAM"
           link="https://instagram.com/carol_dgt?igshid=NGExMmI2YTkyZg=="
           image="/img/Instagram.svg"
           text="carol_dgt"
           target="_blank"
         />
         <SocialMedia
+          textname="GITHUB"
           link="https://github.com/Caroldgt"
           image="/img/GitHub.svg"
           text="Caroldgt"

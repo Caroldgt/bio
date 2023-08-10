@@ -1,33 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family= Open + Sans:wght@300 & display=swap');
-
-
-.name,
 .portfolio {
-    color: #FC607F;
+    color: #FFF;
     text-align: center;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.name {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 550;
-    position: relative;
-    font-size: 1.625rem;
-    top: 9px;
-    margin-top: 0px;
-
-}
-
-.portfolio {
-    color: #FA5D7C;
-    text-align: center;
-    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 300;
     line-height: normal;
 }
 

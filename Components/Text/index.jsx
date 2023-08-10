@@ -6,15 +6,9 @@ import Image from "next/image"
 function Text() {
     return (
         <>
-            <h2 className={styles.name}>
-                Carol
-            </h2>
-            <div>
-                <Link href={"#"} className={styles.portfolio}>
-                    <p>futuro portfolio</p>
+                <Link href={"https://portfolio-caroldgt.vercel.app/"} className={styles.portfolio}>
+                    <p>Portfolio</p>
                 </Link>
-            </div>
-
         </>
     )
 }
