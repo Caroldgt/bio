@@ -1,49 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family= Open + Sans:wght@300 & display=swap');
+.socialmedia{
+    align-items: center;
+    display: flex;
+    justify-content:center ; 
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
 
 .border {
-    border-radius: 0.825rem;
-    border: 2px solid rgba(242, 121, 165, 0.56);
-    margin: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    position: relative;
-    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    max-width: 350px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
 
 }
 
-.border:hover {
-    border: 2px solid rgba(216, 1, 80, 0.56);
-    transform: scale(0.95);
-    transition: 0.4s;
+
+.textname {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.textname {
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
 }
 
 .social {
-    display: flex;
-    width: 23.3125rem;
-    height: 3.0625rem;
-    padding: 0rem 1.9375rem;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    text-decoration: none;
-    margin-left: 0;
+   text-decoration: none;
+   width: 100%;
+
 }
 
 
 .image {
+    align-items: center;
     display: flex;
     position: relative;
-    align-items: center;
 }
 
 .text {
-    color: #FA5D7C;
-    text-align: center;
+    color: #FFF;
     font-family: 'Open Sans', sans-serif;
     font-size: 1.25rem;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 300;
     line-height: normal;
+    text-align: center;
 }
+
